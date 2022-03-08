@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forms</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputUsername1">Username: </label>
+        <input type="username" class="form-control" id="exampleInputUsername1" aria-describedby="Username" placeholder="Enter Username">
+      </div>
+
+      <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-inline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-inline" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <input type="radio" class="form-group" name="gender" id="exampleInputGender1">
+        <label for="exampleInputGender1">Male</label>
+        <input type="radio" class="form-group" name="gender" id="exampleInputGender2">
+        <label for="exampleInputGender2">Female</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+<------------------------------------------------------------------------------------------------------->
+      <form>
+        <div class="form-group row">
+        <label for="example-text-input" class="col-2 col-form-label">Username</label>
+        <div class="col-10">
+        <input class="form-inline" type="text" id="example-text-input">
+        </div>
+        </div>
+        <div class="form-group row">
+        <label for="example-email-input" class="col-2 col-form-label">Email</label>
+        <div class="col-10">
+        <input class="form-inline" type="email" id="example-emial-input">
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+<-------------------------------------------------------------------------------------------------------->
+<form>
+<div class="form-group">
+<label for="example-text-input">Username</label>
+<div>
+<input class="form-control" type="text" id="example-text-input" placeholder="Username" disabled>
+</div>
+</div>
+<div class="form-group">
+<label for="example-email-input">Email</label>
+<div>
+<input class="form-control" type="email" id="example-emial-input" placeholder="Email" disabled>
+</div>
+</div>
+<button type="submit" class="btn btn-primary" disabled>Sign up</button>
+</form>
+<-------------------------------------------------------------------------------------------------------->
+<div class="form-group has-success">
+        <label class="form-control-label" for="inputSuccess1">Input with success</label>
+        <input type="text" class="form-control form-control-success" id="inputSuccess1">
+        <div class="form-control-feedback">Success! You've done it.</div>
+    </div>
+    <div class="form-group has-warning">
+        <label class="form-control-label" for="inputWarning1">Input with warning</label>
+        <input type="text" class="form-control form-control-warning" id="inputWarning1">
+        <div class="form-control-feedback">Check your input and try again</div>
+    </div>
+    <div class="form-group has-danger">
+        <label class="form-control-label" for="inputDanger1">Input with danger</label>
+        <input type="text" class="form-control form-control-danger" id="inputDanger1">
+        <div class="form-control-feedback">You have not entered a valid input</div>
+</div>
+  </body>
+</html>
